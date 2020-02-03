@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+
+  "name": "CLM Web Whatsapp Emotion",
+  "version": "0.1.0",
+  "description": "Web Whatsapp + MS Emotion API",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["js/jquery-3.2.0.min.js", "js/clmtrackr.js", "js/model_pca_20_svm.js", "js/emotionmodel.js", "js/emotion_classifier.js", "js/utils.js", "js/d3.min.js", "js/Stats.js", "content.js"],
+    "matches": ["https://web.whatsapp.com/"]
+  }],
+    
+  "background":{
+  "scripts": ["background.js"]
+  },
+
+    
+  "permissions": [
+     "tabs",
+     "https://tama.adhara.uberspace.de/emotion/contacts.php",
+     "https://tama.adhara.uberspace.de/emotion/useremotion.php",
+     "storage"
+  ],
+    
+  "page_action": {
+          "default_icon": {                    // optional
+            "16": "images/icon16.png",           // optional
+            "24": "images/icon24.png",           // optional
+            "32": "images/icon32.png"            // optional
+          },
+          "default_title": "Emotional Whatsapp Web",      // optional; shown in tooltip
+          "default_popup": "popup.html"        // optional
+  },
+    
+  "web_accessible_resources": ["emo.png"]
+
+}

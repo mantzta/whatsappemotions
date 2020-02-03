@@ -1,0 +1,206 @@
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.emo{
+    width: 49px;
+    height: 49px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#popup{
+    position: absolute;
+    width:50%;
+    height:50%;
+    top: 10%;
+    left: 25%;
+    overflow-y: scroll;
+    background-color: white;
+    color:black;
+    z-index: 999;
+}
+
+video{
+    top: 25%;
+    left: 23%;
+    position: absolute;
+    visibility:hidden;
+    z-index: 998;
+}
+
+canvas{
+    top: 25%;
+    left: 23%;
+    position: absolute;
+    visibility: hidden;
+    z-index: 999;
+}
+
+#bg{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    visibility:hidden;
+    z-index: 997; 
+    background-color: white;
+}
+
+#emoPics{
+    top: 5%;
+    left: 23%;
+    width: 640px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 998;
+    background-color: white;
+}
+
+#btnPics{
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 15px;
+    background: #b42727;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#btnPics:hover {
+  background: #ff7373;
+  text-decoration: none;
+}
+
+.testimg{
+    left: 0;
+    visibility: hidden;
+}
+
+.emoBtns{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 2px;
+    height: 35px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.btnClose{
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 15px;
+    background: #34d93f;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btnClose:hover {
+  background: #1c8c2d;
+  text-decoration: none;
+}
+
+#legend1 div div{
+    width: 20px;
+    height: 20px;
+    margin-left: 1px;
+    display: inline-block;
+}
+
+#squareAnger1{
+    background: #ff7373;
+}
+
+#squareHappiness1{
+    background: #fdf39b;
+}
+
+#squareNeutral1{
+    background: #aaa;
+}
+
+#squareSadness1{
+    background: #567ae1;
+}
+
+#squareSurprise1{
+    background: #9fe7ff;
+}
+
+#legend2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #fff;
+}
+
+#legend2 > div:first-of-type{
+    margin-bottom: 10px;
+}
+
+#legend2 div div{
+    margin-left: 1px;
+    display: inline-block;
+    padding-right: 20px;
+    margin-left: 2px;
+}
+
+#squareAnger2{
+    text-transform: uppercase;
+}
+
+#squareHappiness2{
+    font-style: italic;
+}
+
+#squareSadness2{
+    text-decoration: overline;
+}
+
+#squareSurprise2{
+    letter-spacing: 5px;
+}
+
+#reminder{
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    visibility: hidden;
+    z-index: 997;
+    background-color: white;
+    padding: 20px;
+}
+
+.btnCloseReminder{
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 15px;
+    background: #34d93f;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btnCloseReminder:hover{
+    background: #1c8c2d;
+    text-decoration: none;
+}
